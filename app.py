@@ -1,5 +1,5 @@
 import pickle
-with open('app/pred-products.pckl', 'rb') as fin:
+with open('/pred-products.pckl', 'rb') as fin:
     m2 = pickle.load(fin)
 
 from flask import Flask, jsonify, request
